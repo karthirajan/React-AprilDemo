@@ -1,0 +1,101 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+margin-left: 30px;
+    margin-top: 20px ;
+    grid-column-gap: 30px;
+}
+.grid1{
+    grid-column-start: 1;
+    margin-top: 20px;
+   
+
+}
+.grid1 img{
+    height: 34px;
+    width: 100px;
+    left: 120px;
+    top: 42px;
+    border-radius: undefinedpx;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+.grid2 ul li{
+ text-decoration: none;
+ list-style-type: none;
+ display: flex;
+ margin-right: 20px;
+ margin-left: 20px;
+ 
+}
+.grid2{
+    grid-column-start: 7 ;
+    margin: 10px;
+}
+.anchor{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.grid.container{
+    margin: 0px;
+}
+.product{
+    font-weight: bolder;
+    font-size: larger;
+}
+.para{
+    font-size: small;
+}
+.button{
+    background-color: rgb(51, 51, 171);
+    size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    color: aliceblue;
+}
+.grids{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.grid3{
+    grid-column-start: 1;
+    margin-left: 30px;
+}
+.grid4{
+    grid-column-start: 4;
+}
+.ima{
+    height: 400px;
+width: 00px;
+left: 686px;
+top: 116px;
+border-radius: [object Object]px;
+
+}
+.gridd{
+    display: grid;
+    grid-template-columns: repeat(7);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.grid5{
+    grid-column-start: 1;
+}
+.grid6{
+    grid-column-start: 3;
+}
+.grid7{
+    grid-column-start: 4;
+}
+.grid8{
+    grid-column-start: 5;
+}
+.grid9{
+    grid-column-start: 6;
+}
